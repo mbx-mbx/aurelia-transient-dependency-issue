@@ -1,6 +1,6 @@
 import {bootstrap} from "aurelia-bootstrapper";
-
 import {StageComponent} from "aurelia-testing";
+
 import {ItemService} from "../../src/resources/services/item-service";
 import {MockItemService} from "./mock-item-service";
 
