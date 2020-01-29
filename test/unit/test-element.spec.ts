@@ -1,8 +1,8 @@
-import {TestElement} from "../../src/resources/elements/test-element";
-import {ComponentTester, StageComponent} from "aurelia-testing";
+import {bootstrap} from "aurelia-bootstrapper";
+
+import {StageComponent} from "aurelia-testing";
 import {ItemService} from "../../src/resources/services/item-service";
 import {MockItemService} from "./mock-item-service";
-import {bootstrap} from "aurelia-bootstrapper";
 
 describe('test element', () => {
   let testElement;

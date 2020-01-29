@@ -1,5 +1,6 @@
-import {ItemService} from "../services/item-service";
 import { autoinject } from "aurelia-dependency-injection";
+
+import {ItemService} from "../services/item-service";
 
 @autoinject()
 export class TestElement {
