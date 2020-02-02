@@ -1,7 +1,8 @@
-import { transient } from "aurelia-dependency-injection";
+import {Guid} from "guid-typescript";
 
-@transient()
 export class MockItemService{
+  id = Guid.create();
+
   getItems():void {
     console.log('mock item service');
   }

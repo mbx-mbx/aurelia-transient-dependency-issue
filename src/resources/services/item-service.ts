@@ -1,7 +1,8 @@
-import { transient } from "aurelia-framework";
+import {Guid} from "guid-typescript";
 
-@transient()
 export class ItemService {
+  id = Guid.create();
+
   constructor() {
   }
 
