@@ -1,9 +1,10 @@
 import {Guid} from "guid-typescript";
 
 export class ItemService {
-  id = 'REAL-' + Guid.create()
+  id: string;
 
   constructor() {
+    this.id = 'REAL-' + Guid.create();
   }
 
   getItems(): void {

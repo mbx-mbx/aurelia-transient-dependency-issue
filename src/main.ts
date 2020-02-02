@@ -14,8 +14,9 @@ export function configure(aurelia: Aurelia) {
     aurelia.use.plugin(PLATFORM.moduleName('aurelia-testing'));
   }
 
+  aurelia.container.registerTransient(ItemService, ItemService);
+
   aurelia.start().then(() => {
-      aurelia.container.registerTransient(ItemService, ItemService);
       aurelia.setRoot(PLATFORM.moduleName('app'));
     }
   );
