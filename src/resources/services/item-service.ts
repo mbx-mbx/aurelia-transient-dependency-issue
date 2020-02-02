@@ -1,7 +1,7 @@
 import {Guid} from "guid-typescript";
 
 export class ItemService {
-  id = Guid.create();
+  id = 'REAL-' + Guid.create()
 
   constructor() {
   }
