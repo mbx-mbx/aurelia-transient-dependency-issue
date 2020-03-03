@@ -3,7 +3,6 @@ module.exports = function (wallaby) {
   return {
     files: [
       'tsconfig.json',
-      'aurelia_project/aurelia.json',
       'src/**/*.ts',
       'test/**/*.ts',
       '!test/unit/**/*.spec.ts',
